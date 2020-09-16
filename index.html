@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>MY HOSTEL APP</title>
+    <link rel="stylesheet" href="js/framework7/css/framework7.bundle.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.14.0-web/css/all.min.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="view view-main">
+            <div class="page">
+
+                <div class="toolbar tabbar tabbar-labels toolbar-bottom">
+                    <div class="toolbar-inner">
+                        <a href="#tab-1" class="tab-link tab-link-active">
+                            <i class="fa fa-unlock"></i>
+                            <p>LOG IN</p>
+                        </a>
+                        <a href="#tab-2" class="tab-link">
+                            <i class="fas fa-user-plus"></i>
+                            <p>REGISTER</p>
+                        </a>
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="tabs-animated-wrap">
+                    <div class="tabs">
+                        <div id="tab-1" class="tab tab-active page-content">
+                            <!-- title -->
+                            <div class="title-apps padding-middle background-primer">
+                                <div class="container">
+                                    <div class="row row-no-margin-bottom">
+                                        <div class="col">
+                                            <h3 class="color-white">HOSTEL APP</h3>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end title -->
+
+
+
+                            <!-- log in form -->
+
+            
+                            <div class="login-register">
+                                <div class="container">
+                                    <h3 class="text-center color-primer"> log in to your account</h3>
+                                    <form action="#" class="margin-bottom" id="login-form">
+                                        <input type="tel" placeholder="Enter your phone number" name="phone number" required minlength="6">
+                                         
+                                        <input type="password" placeholder="Enter password" name="password" required>
+                                        <button class="buttons buttons-center" type="submit">LOGIN</button>
+                                         
+                                    </form>
+                                </div>
+
+                            </div>
+                            <!-- end log in form -->
+                        </div>
+                        <div id="tab-2" class="tab page-content">
+                            <h3> REGISTER</h3>
+                            <!-- log in form -->
+
+            
+                            <div class="login-register">
+                                <div class="container">
+                                    <h3 class="text-center color-primer"> REGISTER YOUR SELF</h3>
+                                    <form action="#" class="margin-bottom" id="login-form">
+                                        <input type="name" placeholder="Enter your full name" name="full name" required minlength="10">
+                                         
+                                        <input type="tel" placeholder="Enter your phone number" name="phone number" required>
+                                        <input type="Sex" placeholder="Enter your sex" name="sex">
+                                        <input type="hostel name" placeholder="Enter your prefered hostel" name="Hostel name">
+                                        <input type="Next of kin" placeholder="name of next of kin" name="Next of kin">
+                                        <button class="buttons buttons-center" type="submit">REGISTER</button>
+                                         
+                                    </form>
+                                </div>
+
+                            </div>
+                            <!-- end log in form -->
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <script src="js/framework7/js/framework7.bundle.min.js"></script>
+        <script src="js/routes.js"></script>
+        <script src="js/app.js"></script>
+</body>
+
+</html>
